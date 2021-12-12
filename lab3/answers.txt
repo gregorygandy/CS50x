@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: sort1 sorts sorted files significantly faster than reversed files. Bubble sort sorts sorted files significantly faster than reversed files. Additioanlly, the other two algorithms should not be able to sort a sorted list significantly faster than a reversed list.
+
+sort2 uses: Merge sort
+
+How do you know?: sort2 performs better than sort1 or sort2 at sorting the random files. Merge sorts random files faster than the other algorithms.
+
+sort3 uses: Selection sort
+
+How do you know?: The time it takes sort3 to sort random50000, sorted50000, and reversed50000 is almost identical. Merge sort is ruled out because sort3 does not sort any files significantly faster than the other algorithms.

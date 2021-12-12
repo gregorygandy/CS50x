@@ -1,0 +1,75 @@
+Task: Determine which sorting algorithm various programs use. 
+
+Selection sort:
+
+Continually looks through an entire array to find the smallest item in that array, 
+bring that smallest item to the beginning of the array, and stops when the array is sorted.
+
+Bubble sort:
+
+Continually looks through an entire array to compare two values at a time. Determines whether every pair of numbers is in the
+correct order. Make sure that the smallest number is to the left of the larger. Stops when array is sorted.
+
+Merge sort:
+
+Takes an array and divides it into a left half and a right half. Recursively sorts each half and merges halves back together.
+
+Big 0: the upper bound on the number of steps requird to complete the sort.
+
+Big omega: the lower bound on the number of steps required to complete the sort. (if we get lucky)
+
+Running Time:
+
+Selection sort: big O(n^2) big omega(n^2) , if there are n numbers it might take n squared steps to sort
+Bubble sort: big O(n^2) big omega(n)
+Merge sort: big O(n log n) big omega(n log n)
+
+Strategy:
+
+* Bubble sort (omega(n)) should perform better than selection sort (omega(n^2)) on the sorted files, 
+  but they should perform similarly with random files.
+
+* Merge sort (big O(n log n)) should perform better than both selection and bubble with random files. 
+
+
+time ./sort1 random5000.txt
+
+TODO: Test and time each program on some of the sample files.
+
+All time in real:
+
+sort1: Bubble sort
+
+time ./sort1 random5000.txt (0m0.066s)
+time ./sort1 random10000.txt (0m0.449s)
+time ./sort1 random50000.txt (0m16.647s)
+time ./sort1 sorted5000.txt (0m0.012s)
+time ./sort1 sorted10000.txt (0m0.058s)
+time ./sort1 sorted50000.txt (0m5.324s)
+time ./sort1 reversed5000.txt (0m0.109s)
+time ./sort1 reversed10000.txt (0m0.412s)
+time ./sort1 reversed50000.txt (0m13.186s)
+
+sort2 (outperforms sort1 and sort3 on the random files): Merge sort
+
+time ./sort2 random5000.txt (0m0.011s)
+time ./sort2 random10000.txt (0m0.103s)
+time ./sort2 random50000.txt (0m3.333s)
+time ./sort2 sorted5000.txt (0m0.010s)
+time ./sort2 sorted10000.txt (0m0.018s)
+time ./sort2 sorted50000.txt (0m3.430s)
+time ./sort2 reversed5000.txt (0m0.011s)
+time ./sort2 reversed10000.txt (0m0.069s)
+time ./sort2 reversed50000.txt (0m4.252s)
+
+sort3: Selection sort
+
+time ./sort3 random5000.txt (0m0.035s)
+time ./sort3 random10000.txt (0m0.196s)
+time ./sort3 random50000.txt (0m7.674s)
+time ./sort3 sorted5000.txt (0m0.037s)
+time ./sort3 sorted10000.txt (0m0.249s)
+time ./sort3 sorted50000.txt (0m7.711s)
+time ./sort3 reversed5000.txt (0m0.009s)
+time ./sort3 reversed10000.txt (0m0.296s)
+time ./sort3 reversed50000.txt (0m7.834s)
