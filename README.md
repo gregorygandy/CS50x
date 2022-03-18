@@ -2,9 +2,9 @@
 
 Official course description: Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript.
 
-My reflection: TODO
+Reflection: TODO
 
-My solutions to labs and problem sets:
+Lab and problem set solutions:
 
 - [Week 0 - Scratch]()
 - [Week 1 - C]()
@@ -18,5 +18,5 @@ My solutions to labs and problem sets:
 - [Week 9 - Flask]()
 - [Week 10 - Ethics]()
 
-My final project:
+Final project:
 
