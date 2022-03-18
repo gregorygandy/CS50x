@@ -1,6 +1,6 @@
 # [CS50x 2021](https://cs50.harvard.edu/x/2021/)
 
-Official course description: This course is an introduction to modern web development with JavaScript. The main focus is on single page applications implemented with React and supporting them with RESTful and GraphQL web services implemented with Node.js. The course also has parts on TypeScript, React Native, and Continuous integration. Other topics include debugging applications, container technology, configuration, managing runtime environments, and databases.
+Official course description: Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript.
 
 My reflection: TODO
 
