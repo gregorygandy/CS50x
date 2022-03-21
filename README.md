@@ -6,14 +6,14 @@ Reflection: TODO
 
 Lab and problem set solutions:
 
-- [Week 0 - Scratch](Week1-C/pset1)
-- [Week 1 - C]()
-- [Week 2 - Arrays]()
-- [Week 3 - Algorithms]()
-- [Week 4 - Memory]()
-- [Week 5 - Data Structures]()
-- [Week 6 - Python]()
-- [Week 7 - SQL]()
+- [Week 0 - Scratch]
+- [Week 1 - C](Week1-C/pset1)
+- [Week 2 - Arrays](Week2-Arrays/pset2)
+- [Week 3 - Algorithms](Week3-Algorithms)
+- [Week 4 - Memory](Week4-Memory)
+- [Week 5 - Data Structures](Week5-DataStructures)
+- [Week 6 - Python](Week6-Python)
+- [Week 7 - SQL](Week7-SQL)
 - [Week 8 - HTML, CSS, JavaScript]()
 - [Week 9 - Flask]()
 - [Week 10 - Ethics]()
