@@ -6,7 +6,7 @@ Reflection: TODO
 
 Lab and problem set solutions:
 
-- [Week 0 - Scratch]()
+- [Week 0 - Scratch](Week1-C/pset1)
 - [Week 1 - C]()
 - [Week 2 - Arrays]()
 - [Week 3 - Algorithms]()
