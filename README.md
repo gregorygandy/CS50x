@@ -6,7 +6,7 @@ Reflection: TODO
 
 Lab and problem set solutions:
 
-- [Week 0 - Scratch]()
+- [Week 0 - Scratch](Week0-Scratch)
 - [Week 1 - C](Week1-C/pset1)
 - [Week 2 - Arrays](Week2-Arrays/pset2)
 - [Week 3 - Algorithms](Week3-Algorithms)
@@ -14,9 +14,9 @@ Lab and problem set solutions:
 - [Week 5 - Data Structures](Week5-DataStructures)
 - [Week 6 - Python](Week6-Python)
 - [Week 7 - SQL](Week7-SQL)
-- [Week 8 - HTML, CSS, JavaScript]()
-- [Week 9 - Flask]()
-- [Week 10 - Ethics]()
+- [Week 8 - HTML, CSS, JavaScript](Week8-HTML-CSS-JavaScript)
+- [Week 9 - Flask](Week9-Flask)
 
 Final project:
 
+- 
